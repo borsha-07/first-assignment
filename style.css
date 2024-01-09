@@ -231,3 +231,36 @@ font-style: normal;
 font-weight: 900;
 line-height: normal;
 }
+.our{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.pic-one{
+    width: 400px;
+height: 400px;
+flex-shrink: 0;
+display: flex;
+border-radius: 16px;
+gap: 35px;
+}
+.pic-two{
+    width: 400px;
+    margin-top: 20px;
+height: 400px;
+flex-shrink: 0;
+display: flex;
+border-radius: 16px;
+gap: 35px;
+}
+.pic-one :hover{
+    box-shadow: 5px 5px 20px #F00;
+}
+.pic-two :hover{
+    box-shadow: 5px 5px 20px #F00;
+}
+
